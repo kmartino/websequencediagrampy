@@ -1,0 +1,25 @@
+websequencediagrampy.py: A simple script to call websequencediagrams.com from a
+command line.
+
+This simple script, when passed in a file with a sequence diagram definition,
+will call out to websequencediagrams.com to render it, and downloads, the
+rendered image (png format).
+
+INSTALLATION
+
+Download to a directory - that's it.
+
+INSTRUCTIONS
+
+You need a text file containing a sequence diagram definition using the syntax 
+that is recognized by websequencediagrams.com.  A sample (sample.txt) is bundled
+with this script.
+
+$ python websequencediagrampy.py
+
+The script will ask you what style you desire, the file that defines the
+sequence diagram, and the name of the file to output.
+
+FOR MORE INFORMATION
+
+Go to http://www.websequencediagrams.com/
