@@ -2,4 +2,6 @@
 *.pyc
 *.p
 *.txt
+!sample.txt
 *.png
+!sample.png
