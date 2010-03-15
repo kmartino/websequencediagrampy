@@ -11,14 +11,25 @@ Download to a directory - that's it.
 
 INSTRUCTIONS
 
-You need a text file containing a sequence diagram definition using the syntax 
-that is recognized by websequencediagrams.com.  A sample (sample.txt) is bundled
-with this script.
+You need a text file, containing a sequence diagram definition, using the syntax 
+recognized by websequencediagrams.com.  
+
+A sample (sample.txt) is bundled with this script.
+
+You can run the script with no arguments and it will query you for them:
 
 $ python websequencediagrampy.py
 
-The script will ask you what style you desire, the file that defines the
-sequence diagram, and the name of the file to output.
+This is a great way to explore various options.
+
+Alternately, you can run the script with arguments to save you some time, 
+for example:
+
+$ python websequencediagrampy.py -i sample.txt -p sample.png -s earth
+
+Help is available from the command line by passing in -h or --help
+
+$ python websequencediagrampy.py -h
 
 FOR MORE INFORMATION
 
